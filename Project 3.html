@@ -6,34 +6,40 @@
   <meta name="viewport" content="width=device-width">
   <title>Images</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    img {max-width: 100%;
+    max-height: 100%;}
+    picture200 {width: 200px;
+               height: 200px;}
+  </style>
 </head>
 
 <body>
   <a href="index.html">Home</a>
  <h1>Dogs</h1>
   <hr>
-  <picture>
-    <source media="(max-width:800px)" srcset="pictures/dog3.jpg">
-    <source media="(max-width:650px)" srcset="pictures/dog2.jpg">
-    <source media="(max-width:500px)" srcset="pictures/dog1.jpg">
+  <picture class="picture200">
+    <source media="(max-width:769px)" srcset="pictures/dog3.jpg">
+    <source media="(max-width:426px)" srcset="pictures/dog2.jpg">
+    <source media="(max-width:321px)" srcset="pictures/dog1.jpg">
 <img src="pictures/dog4.jpg" alt="Dog" style=width:auto;>
   </picture>
   
   <h1>Cars</h1>
   <hr>
-  <picture>
-    <source media="(max-width:800px)" srcset="pictures/Car3.jpg">
-    <source media="(max-width:650px)" srcset="pictures/Car2.jpg">
-    <source media="(max-width:500px)" srcset="pictures/Car1.jpg">
+  <picture class="picture200">
+    <source media="(max-width:769px)" srcset="pictures/Car3.jpg">
+    <source media="(max-width:426px)" srcset="pictures/Car2.jpg">
+    <source media="(max-width:321px)" srcset="pictures/Car1.jpg">
 <img src="pictures/Car4.jpg" alt="Car" style="width:auto;">
   </picture>
   
   <h1>Nature</h1>
   <hr>
-  <picture>
-    <source media="(max-width:800px)" srcset="pictures/Nat3.jpg">
-    <source media="(max-width:650px)" srcset="pictures/Nat2.jpg">
-    <source media="(max-width:500px)" srcset="pictures/Nat1.jpg">
+  <picture class="picture200">
+    <source media="(max-width:769px)" srcset="pictures/Nat3.jpg">
+    <source media="(max-width:426px)" srcset="pictures/Nat2.jpg">
+    <source media="(max-width:321px)" srcset="pictures/Nat1.jpg">
 <img src="pictures/Nat4.jpg" alt="Nature" style="width:auto;">
   </picture>
 </body>
